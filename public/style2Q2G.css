@@ -14,8 +14,8 @@ h1 {
     margin: 40px auto;
     background-color: rgba(23, 131, 194, 0.5);
     padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(23, 131, 194, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(23, 131, 194, 0.5);
 
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     overflow: hidden;
@@ -34,7 +34,9 @@ h1 {
 
 .poster img {
     width: 500px;
-    border-radius: 8px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(23, 131, 194, 0.5);
 }
 
 .details {
@@ -85,8 +87,8 @@ h1 {
     margin: 40px auto;
     background-color: rgba(23, 131, 194, 0.5);
     padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(23, 131, 194, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(23, 131, 194, 0.5);
 
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     overflow: hidden;
@@ -96,4 +98,23 @@ h1 {
 
 .container2:hover {
     transform: translateY(-5px);
+}
+
+
+.video { 
+    margin-top: 25px; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    box-shadow: 0 8px 25px rgba(23, 131, 194, 0.5); 
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.movie-header1 {
+    display: flex;
+    gap: 20px;
 }
