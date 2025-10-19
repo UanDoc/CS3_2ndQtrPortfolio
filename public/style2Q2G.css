@@ -15,7 +15,7 @@ h1 {
     background-color: rgba(23, 131, 194, 0.5);
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(23, 131, 194, 0.5);
+    box-shadow: 0 0 20px rgba(23, 131, 194, 0.5);
 
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     overflow: hidden;
@@ -45,6 +45,7 @@ h1 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 1%;
+    text-align: left;
 }
 
 .directors {
@@ -67,4 +68,32 @@ h1 {
     color:rgba(23, 131, 194, 0.5)
 }
 
+.review {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
 
+.review2 {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.container2 {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgba(23, 131, 194, 0.5);
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(23, 131, 194, 0.5);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+}
+
+.container2:hover {
+    transform: translateY(-5px);
+}
