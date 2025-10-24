@@ -28,7 +28,7 @@ body {
      gap: 30px;
      margin: 0;
     }
-    
+
     nav.navbar ul li a {
      text-decoration: none;
      color: #c23a24;
@@ -49,8 +49,7 @@ body {
      position: relative;
      background: linear-gradient(180deg, rgba(255,230,214,0.95), rgba(255,213,180,0.9));
      border-bottom: 8px ridge #c24a28;
-     box-shadow: 0 8px 40px rgba(90, 30, 10, 0.4);
-    }
+     box-shadow: 0 8px 40px rgba(90, 30, 10, 0.4)    }
     h1 {
      font-family: 'Cormorant Garamond', serif;
      font-size: 5em;
