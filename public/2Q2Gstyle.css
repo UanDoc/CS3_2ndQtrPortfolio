@@ -1,12 +1,12 @@
 body {
      font-family: 'Quicksand', sans-serif;
-     background-image: url('https://cdn.vox-cdn.com/thumbor/EPIVIv6LWRBTTnXJRnBbk_PFsmQ=/0x0:2580x1080/1200x0/filters:focal(0x0:2580x1080):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19917882/The_Willoughbys_00_11_20_09.png');
+     background-image: url('https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABXNbUp8WfwgRTqEzhGQ1jBm6UP1BAd0sKY1WUA2juUuuG5zReEPefgjDqhqYUuReo9ynyLsJxMpg0gurI0M8dBQmPxn9pzORMZu_.jpg?r=46b');
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
      background-blend-mode: multiply;
      background-color: rgba(60, 30, 10, 0.85);
-     margin: 0;
+     margin: 0 auto;
      padding: 0;
      color: #5a2414;
      overflow-x: hidden;
@@ -50,6 +50,7 @@ body {
      background: linear-gradient(180deg, rgba(255,230,214,0.95), rgba(255,213,180,0.9));
      border-bottom: 8px ridge #c24a28;
      box-shadow: 0 8px 40px rgba(90, 30, 10, 0.4)    }
+
     h1 {
      font-family: 'Cormorant Garamond', serif;
      font-size: 5em;
@@ -64,7 +65,7 @@ body {
      width: 0;
      animation: typing 3s steps(18) forwards, glowPulse 3s ease-in-out infinite alternate 3s;
     }
-    @keyframes typing { from { width: 0; } to { width: 18ch; } }
+    @keyframes typing { from { width: 0; } to { width: 40ch; } }
     @keyframes glowPulse {
      0% { text-shadow: 0 0 10px #ffbdbd, 0 0 20px #ff8e72; }
      100% { text-shadow: 0 0 25px #ffcfb2, 0 0 40px #ff8e72; }
